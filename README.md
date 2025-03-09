@@ -1,6 +1,6 @@
 # 效果图
 
-<img src="C:\Users\ding_\Downloads\RL_SuperMario\readme_file\record.gif" alt="record" style="zoom: 200%;" />
+<img src="https://raw.githubusercontent.com/jusway/RL_SuperMario/refs/heads/main/readme_file/record.gif" alt="record" style="zoom: 200%;" />
 
 # 煮波的话
 
