@@ -13,7 +13,7 @@ from train import make_env
 
 def main():
     # 路径
-    model_dir= r'monitor_log/best_model/best_model14393561.zip'
+    model_dir= r'monitor_log/best_model/best_model.zip'
     # 初始化环境
     env = SubprocVecEnv([make_env for _ in range(1)])
     env = VecFrameStack(env, 4, channels_order='last')  # 帧叠加

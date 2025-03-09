@@ -26,7 +26,7 @@ def make_env():
 def train_fn():
     total_timesteps = 40e6 # 总共多少步
     check_frq=100000 # 十万
-    num_envs = 16
+    num_envs = 1
     model_params = {
         'learning_rate': 3e-4,  # 学习率
         'n_steps': 2048,  # 每个环境每次更新的步数
@@ -56,8 +56,8 @@ def train_fn():
     env = SubprocVecEnv([make_env for _ in range(num_envs)])
     env = VecFrameStack(env, 4, channels_order='last')  # 帧叠加
     # 训练
-    model=PPO.load('monitor_log/best_model/best_model42211241.zip', env=env, **model_params)
-    # model = PPO(env= env, **model_params)
+    # model=PPO.load('monitor_log/best_model/best_model.zip', env=env, **model_params)
+    model = PPO(env= env, **model_params)
     model.learn(total_timesteps=total_timesteps,callback=callback)
 
 
