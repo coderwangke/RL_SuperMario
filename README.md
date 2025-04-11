@@ -8,7 +8,7 @@
 
 PS.  没有基础的人也许这个项目的依赖搞不定的，这个依赖确实难搞，所以你下载了装不下来依赖也别灰心，看我视频教程。
 
-# b站教程（快完结了）
+# b站教程（已完结）
 
 【强化学习训练超级马里奥（stablebaseline3框架）】 https://www.bilibili.com/video/BV1CERYY3EjA/?p=2&share_source=copy_web&vd_source=dbb60edcfbcee053b3e3e7aa16ec24be
 
