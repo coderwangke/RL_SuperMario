@@ -2,6 +2,15 @@
 
 <img src="https://raw.githubusercontent.com/jusway/RL_SuperMario/refs/heads/main/readme_file/record.gif" alt="record" style="zoom: 200%;" />
 
+# 依赖安装
+```bash
+uv sync --python 3.8
+pip install -r requirements.txt
+```
+* 注意每次运行'uv sync'都需要重新安装requirements.txt中的依赖。
+* 还有pyproject.toml中cuda的版本也要根据你自己的情况调整一下
+
+
 # 缘起-煮波的话
 
 一个入门级强化学习项目，没想到抖音和小红书反响这么大，很多人想要学习，让煮波小火了一把，煮波决定把这个项目进行讲解录课，然后发到b站上。
